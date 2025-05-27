@@ -120,7 +120,7 @@ function App() {
                 </div>
                 <div className='boton'>
                   <button className='botonn'>
-                    <p className="texbot" href="hhttps://elimparcial-elimparcial-prod.web.arc-cdn.net/locurioso/2025/05/26/colores-de-moda-para-este-verano-2025/"> Ver más </p>
+                    <a className="texbot" href="https://elimparcial-elimparcial-prod.web.arc-cdn.net/locurioso/2025/05/26/colores-de-moda-para-este-verano-2025/"> Ver más </a>
                   </button>
                 </div>
               </div>
@@ -131,7 +131,7 @@ function App() {
                 </div>
                 <div className='boton'>
                   <button className='botonn'>
-                    <p className="texbot" href="hhttps://elimparcial-elimparcial-prod.web.arc-cdn.net/locurioso/2025/05/26/colores-de-moda-para-este-verano-2025/"> Ver más </p>
+                    <a className="texbot" href="https://elimparcial-elimparcial-prod.web.arc-cdn.net/locurioso/2025/05/26/colores-de-moda-para-este-verano-2025/"> Ver más </a>
                   </button>
                 </div>
               </div>
@@ -142,7 +142,7 @@ function App() {
                 </div>
                 <div className='boton'>
                   <button className='botonn'>
-                    <p className="texbot" href="https://www.elle.com/es/moda/noticias/a63106182/mocha-mousse-pantone-2025-como-llevar-looks-inspiracion-expertas-moda/"> Ver más </p>
+                    <a className="texbot" href="https://www.elle.com/es/moda/noticias/a63106182/mocha-mousse-pantone-2025-como-llevar-looks-inspiracion-expertas-moda/"> Ver más </a>
                   </button>
                 </div>
               </div>

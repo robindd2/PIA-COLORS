@@ -42,7 +42,7 @@ body {
   display: flex;
   align-items: center;
   margin-left: auto; 
-  margin-right: 495px; 
+  margin-right: 455px; 
 }
 
 .logo {
@@ -174,11 +174,11 @@ body {
 .notas { 
    
   display: flex; 
-  height:420px; 
+  height:600px; 
   justify-content: center;  
   gap: 20px; 
   padding: 20px; 
-  margin-top: 30px; 
+  margin-top: 10px; 
  } 
 
  .nota { 
@@ -233,12 +233,14 @@ body {
  .botonn:hover{ 
   color: rgb(250, 250, 250); 
    border-color: #ffffff; 
-  background-color: #007bff;; 
+  background-color: #007bff;
  } 
 
  .texbot{ 
  font-size: 20px; 
   font-weight:bold; 
+   text-decoration: none; 
+    color: #007bff;
  } 
 
  .nota:first-child{ 
