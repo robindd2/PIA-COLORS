@@ -25,8 +25,8 @@ const Columna = (props) => {
       
       <div className="icon-container">
         <FaCopy className="icon" onClick={handleCopy} title="Copiar" />
-        <FaLock className="icon" title="Bloquear (función no implementada)" />
-        <FaArrowsAltH className="icon" title="Mover (función no implementada)" />
+        <FaLock className="icon" title="Bloquear" />
+        <FaArrowsAltH className="icon" title="Mover " />
       </div>
 
     </div>
