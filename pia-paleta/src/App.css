@@ -42,7 +42,7 @@ body {
   display: flex;
   align-items: center;
   margin-left: auto; 
-  margin-right: 480px; 
+  margin-right: 478px; 
 }
 
 .logo {
@@ -208,11 +208,11 @@ body {
  } 
 
  .texto1{ 
- margin: 72px 0px; 
+ margin: 75px 0px; 
  } 
 
  .texto2{ 
-  margin: 28px 0px; 
+  margin: 29.5px 0px; 
  } 
  .texto3{ 
  margin: 33px 0px; 
