@@ -1,15 +1,14 @@
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .App {
   width: 100vw;
-  height: 100vh; 
+  height: 100vh;
 }
 
 .palette {
@@ -24,9 +23,9 @@ body {
   left: 0;
   width: 100%;
   background-color: white;
-  padding: 0px 40px; 
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  z-index: 100; 
+  padding: 0rem 2.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  z-index: 100;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -36,38 +35,50 @@ body {
   display: flex;
   align-items: center;
   font-weight: 900;
-  font-size: 28px; 
+  font-size: 2.1875rem;
 }
 
-.der { 
+.der {
   display: flex;
   align-items: center;
-  margin-left: auto; 
-  margin-right: 425px; 
+  margin-left: auto;
+  margin-right: 43.4375rem;
 }
 
 .logo {
-  height: 40px;
-  margin-left: 15px;
-} 
+  height: 2.5rem;
+  margin-left: 0.9375rem;
+}
 
-.c{color: #005eff;}
-.o{color: rgb(0, 136, 255);}
-.l{color: rgb(0, 166, 255);}
-.o2{color: rgb(0, 208, 255);}
-.r{color: rgb(0, 238, 255);}
-.s{color: rgb(0, 255, 234);}
+.c {
+  color: #005eff;
+}
+.o {
+  color: rgb(0, 136, 255);
+}
+.l {
+  color: rgb(0, 166, 255);
+}
+.o2 {
+  color: rgb(0, 208, 255);
+}
+.r {
+  color: rgb(0, 238, 255);
+}
+.s {
+  color: rgb(0, 255, 234);
+}
 
 .nav-button {
   background: none;
   border: none;
-  font-weight: 700; 
+  font-weight: 700;
   cursor: pointer;
   color: #000000;
-  border-bottom: 2px solid transparent;
+  border-bottom: 0.125rem solid transparent;
   transition: color 0.2s, border-bottom-color 0.2s;
-  font-size: 20px; 
-  margin: 0px 45px; 
+  font-size: 1.6875rem;
+  margin: 0rem 2.8125rem;
 }
 
 .nav-button:hover {
@@ -81,48 +92,48 @@ body {
 
 .controls {
   position: fixed;
-  bottom: 50px;
+  bottom: 3.125rem;
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
 }
 
-.controls button { 
-  background-color: transparent; 
-  border: 2px solid #000000;   
-  color: #000000;               
-  padding: 20px 40px;       
-  font-size: 20px;           
-  font-weight: bold;             
-  border-radius: 25px;        
+.controls button {
+  background-color: transparent;
+  border: 0.125rem solid #000000;
+  color: #000000;
+  padding: 1.25rem 2.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 1.5625rem;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
 .controls button:hover {
-  background-color: #007bff;   
-  color: white;                 
-  border-color: #f6f6f6;        
+  background-color: #007bff;
+  color: white;
+  border-color: #f6f6f6;
 }
 
 .view-container {
-  font-size: 23px;
-  padding: 100px 40px 40px 40px; 
+  font-size: 1.4375rem;
+  padding: 6.25rem 2.5rem 2.5rem 2.5rem;
   text-align: center;
-  margin: 10px auto;
-  height: calc(100vh - 60px);
+  margin: 0.625rem auto;
+  height: calc(100vh - 3.75rem);
   overflow-y: auto;
 }
 
 .view-container h2 {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .contact-form {
-  margin-top: 70px;
+  margin-top: 4.375rem;
   display: flex;
   flex-direction: column;
-  gap: 20px; 
+  gap: 1.25rem;
   text-align: left;
   width: 30%;
   margin-left: auto;
@@ -135,33 +146,33 @@ body {
 }
 
 .form-group label {
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
   font-weight: bold;
   color: #333;
 }
 
 .form-group input,
 .form-group textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  padding: 0.625rem;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.3125rem;
   font-size: 1rem;
-  font-family: 'Nunito', sans-serif; 
+  font-family: 'Nunito', sans-serif;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
   border-color: #007bff;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 0.3125rem rgba(0, 123, 255, 0.5);
 }
 
 .submit-btn {
   background-color: #007bff;
   color: white;
   border: none;
-  padding: 12px 20px;
-  border-radius: 5px;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.3125rem;
   font-size: 1.1rem;
   font-weight: bold;
   cursor: pointer;
@@ -172,139 +183,131 @@ body {
   background-color: #0056b3;
 }
 
-.notas { 
-   
-  display: flex; 
-  height:620px; 
-  justify-content: center;  
-  gap: 20px; 
-  padding: 20px; 
-  margin-top: 10px; 
- } 
+.notas {
+  display: flex;
+  height: 45rem;
+  justify-content: center;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  margin-top: 1.875rem;
+}
 
- .nota { 
- border-radius: 40px; 
- flex: 1; 
-  text-align: center;  
-  background-color: rgb(214, 112, 213); 
-   
+.nota {
+  border-radius: 2.5rem;
+  flex: 1;
+  text-align: center;
+  background-color: rgb(214, 112, 213);
+}
 
-  
- } 
+.textos {
+  color: aliceblue;
+}
 
- .textos{ 
- color: aliceblue; 
- } 
+.ttex {
+  text-align: center;
+  padding: 0rem 1.875rem;
+}
 
- .ttex{ 
- text-align: center; 
-  padding: 0px 30px; 
- } 
+.texto1,
+.texto2,
+.texto3 {
+  font-size: 1.875rem;
+  padding: 0rem 4.375rem;
+  text-align: justify;
+}
 
- .texto1,.texto2,.texto3{ 
- font-size: 20px; 
- padding: 0px 70px; 
- text-align:justify; 
+.texto1 {
+  margin: 8rem 0rem;
+}
 
- } 
+.texto2 {
+  margin: 4.6875rem 0rem;
+}
+.texto3 {
+  margin: 3.3125rem 0rem;
+}
 
- .texto1{ 
- margin: 128px 0px; 
- } 
+.botonn {
+  padding: 0rem 3.125rem;
+  border-radius: 3.125rem;
+  border: 0.3125rem solid rgba(0, 0, 0, 0.5);
+  color: rgb(250, 250, 250);
+  color: #007bff;
+  border-color: #007bff;
+  margin: 3.125rem;
+  cursor: pointer;
+}
 
- .texto2{ 
-  margin: 75px 0px; 
- } 
- .texto3{ 
- margin: 53px 0px; 
- } 
+.botonn:hover {
+  color: rgb(250, 250, 250);
+  border-color: #ffffff;
+  background-color: #007bff;
+}
 
+.texbot {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
- .botonn{ 
-  padding: 0px 50px; 
-  border-radius: 50px; 
-  border: 5px solid rgba(0,0,0,0.5); 
-  color: rgb(250, 250, 250); 
-  color: #007bff; 
- border-color: #007bff; 
-  margin: 50px; 
-  cursor: pointer; 
- } 
+.nota:first-child {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url('https://www.elimparcial.com/resizer/v2/3JN6OPOEVBFSNOH3ZDASU6SM7M.jpg?auth=4f379a5e91ee9e8a73475b2647b4e11cd6e4664b0deb5598bdab2d8e7da6d3ee&smart=true&width=1200&height=800&quality=70');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
- .botonn:hover{ 
-  color: rgb(250, 250, 250); 
-   border-color: #ffffff; 
-  background-color: #007bff;; 
- } 
+.nota:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url('https://ilkaperea.com/wp-content/uploads/2024/10/color-psicology-cover-ilkaperea_com.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
- .texbot{ 
- font-size: 24px; 
-  font-weight:bold; 
- } 
-
- .nota:first-child{ 
-  background-image: linear-gradient( 
-  0deg, 
-  rgba(0,0,0,0.65), 
-  rgba(0,0,0,0.65) 
-  ) 
-  ,url("https://www.elimparcial.com/resizer/v2/3JN6OPOEVBFSNOH3ZDASU6SM7M.jpg?auth=4f379a5e91ee9e8a73475b2647b4e11cd6e4664b0deb5598bdab2d8e7da6d3ee&smart=true&width=1200&height=800&quality=70"); 
- background-size: cover; 
- background-position: center; 
- background-repeat: no-repeat; 
-  } 
-
-
-  .nota:nth-child(2){ 
-   background-image: linear-gradient( 
-  0deg, 
-  rgba(0,0,0,0.65), 
-  rgba(0,0,0,0.65) 
-  ) 
-  ,url("https://ilkaperea.com/wp-content/uploads/2024/10/color-psicology-cover-ilkaperea_com.webp"); 
- background-size: cover; 
- background-position: center; 
- background-repeat: no-repeat; 
-  } 
-
-
-  .nota:nth-child(3){ 
-   background-image: linear-gradient( 
-  0deg, 
-  rgba(0,0,0,0.65), 
-  rgba(0,0,0,0.65) 
-  ) 
-  ,url("https://hips.hearstapps.com/hmg-prod/images/marron-tendencia-6756a4bec8ddc.jpg?crop=1.00xw:0.886xh;0,0.0899xh&resize=1200:*"); 
- background-size: cover; 
- background-position: center; 
- background-repeat: no-repeat; 
- }
-
-
+.nota:nth-child(3) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url('https://hips.hearstapps.com/hmg-prod/images/marron-tendencia-6756a4bec8ddc.jpg?crop=1.00xw:0.886xh;0,0.0899xh&resize=1200:*');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .hamburger-icon-container {
-  display: none; 
+  display: none;
 }
 
 .hamburger-icon {
-  font-size: 28px;
+  font-size: 1.75rem;
   cursor: pointer;
   color: #000000;
-  padding: 5px;
+  padding: 0.3125rem;
 }
 
 .mobile-menu {
   position: fixed;
   top: 0;
   right: 0;
-  width: 280px;
+  width: 17.5rem;
   height: 100vh;
   background-color: white;
-  box-shadow: -3px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: -0.1875rem 0rem 0.625rem rgba(0, 0, 0, 0.1);
   z-index: 1001;
   transform: translateX(100%);
   transition: transform 0.3s ease-in-out;
-  padding-top: 20px;
+  padding-top: 1.25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -316,9 +319,9 @@ body {
 
 .mobile-menu-close {
   position: absolute;
-  top: 15px;
-  right: 20px;
-  font-size: 40px;
+  top: 0.9375rem;
+  right: 1.25rem;
+  font-size: 2.5rem;
   cursor: pointer;
   color: #000000;
 }
@@ -328,14 +331,14 @@ body {
   border: none;
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #333;
-  padding: 18px 0;
+  padding: 1.125rem 0;
   width: 100%;
   text-align: center;
   cursor: pointer;
-  border-bottom: 1px solid #f0f0f0;
-  margin-top: 20px;
+  border-bottom: 0.0625rem solid #f0f0f0;
+  margin-top: 1.25rem;
 }
 
 .nav-mobile:last-child {
@@ -347,119 +350,104 @@ body {
   background-color: #f8f9fa;
 }
 
-
-.botones-mobile{
-  margin-top: 40px;
+.botones-mobile {
+  margin-top: 2.5rem;
 }
 
-
-@media (max-width: 768px) {
-
+@media (max-width: 48rem) {
   .desktop-nav-links {
     display: none;
   }
 
-  .hamburger-icon-container { 
+  .hamburger-icon-container {
     display: flex;
     align-items: center;
-    margin-right: 20px;
-    width: 40px;
+    margin-right: 1.25rem;
+    width: 2.5rem;
   }
-  
+
   .main-nav {
-    justify-content: space-between; 
-    padding: 10px 15px;
- 
+    justify-content: space-between;
+    padding: 0.625rem 0.9375rem;
   }
 
   .izq {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   .logo {
-    height: 30px;
+    height: 1.875rem;
   }
 
-  body{
-         overflow: auto;
+  body {
+    overflow: auto;
   }
 
   .palette {
     flex-direction: column;
     height: auto;
-    margin-top: 100px;
-  
-    min-height: calc(100vh - 120px);
+    margin-top: 6.25rem;
+    min-height: calc(100vh - 7.5rem);
   }
-
- 
 
   .controls {
     position: relative;
     bottom: auto;
     left: auto;
     transform: none;
-    padding: 15px 0;
+    padding: 0.9375rem 0;
     text-align: center;
   }
 
-
-
-  .controls button { 
-    padding: 10px 20px;
+  .controls button {
+    padding: 0.625rem 1.25rem;
     font-size: 0.9rem;
   }
 
-
-  
   .view-container {
-    padding: 70px 20px 20px 20px;
-    font-size: 16px;
-    margin-top: 30px;
+    padding: 4.375rem 1.25rem 1.25rem 1.25rem;
+    font-size: 1rem;
+    margin-top: 1.875rem;
   }
 
   .contact-form {
     width: 90%;
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
 
   .notas {
     flex-direction: column;
     height: auto;
-    margin-top: 40px;
-    padding: 10px 0px;
-
+    margin-top: 2.5rem;
+    padding: 0.625rem 0rem;
   }
 
   .nota {
     width: 90%;
-   
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
-  
+    margin-bottom: 1.25rem;
   }
 
-  
-  .ttex{
-    font-size: 22px;
+  .ttex {
+    font-size: 1.375rem;
   }
 
-  .texto1,.texto2,.texto3{
-    font-size: 19px;
-    padding: 0 10px;
-    margin: 0px 0px;
+  .texto1,
+  .texto2,
+  .texto3 {
+    font-size: 1.1875rem;
+    padding: 0 0.625rem;
+    margin: 0rem 0rem;
   }
 
   .botonn {
-    padding: 0px 30px;
-    margin: 25px auto 50px auto;
-    border-width: 2px;
+    padding: 0rem 1.875rem;
+    margin: 1.5625rem auto 3.125rem auto;
+    border-width: 0.125rem;
   }
 
   .texbot {
-    font-size:13px;
+    font-size: 0.8125rem;
   }
-
- 
 }
