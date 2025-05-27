@@ -42,7 +42,7 @@ body {
   display: flex;
   align-items: center;
   margin-left: auto; 
-  margin-right: 455px; 
+  margin-right: 475px; 
 }
 
 .logo {
@@ -174,7 +174,7 @@ body {
 .notas { 
    
   display: flex; 
-  height:600px; 
+  height:520px; 
   justify-content: center;  
   gap: 20px; 
   padding: 20px; 
@@ -219,22 +219,31 @@ body {
  } 
 
 
- .botonn{ 
-  padding: 0px 50px; 
+.botonn { 
+  padding: 16px 50px; 
   border-radius: 50px; 
-  border: 5px solid rgba(0,0,0,0.5); 
-  color: rgb(250, 250, 250); 
+  border: 5px solid #007bff;
   color: #007bff; 
- border-color: #007bff; 
   margin: 50px; 
   cursor: pointer; 
- } 
 
- .botonn:hover{ 
+} 
+
+.botonn:hover { 
   color: rgb(250, 250, 250); 
-   border-color: #ffffff; 
+  border-color: #ffffff; 
   background-color: #007bff;
- } 
+} 
+
+.botonn:hover .texbot {
+  color: rgb(250, 250, 250); 
+}
+
+.texbot{ 
+  font-size: 24px; 
+  font-weight:bold; 
+  text-decoration: none; 
+}
 
  .texbot{ 
  font-size: 20px; 
