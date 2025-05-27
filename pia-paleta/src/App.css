@@ -36,14 +36,14 @@ body {
   display: flex;
   align-items: center;
   font-weight: 900;
-  font-size: 35px; 
+  font-size: 28px; 
 }
 
 .der { 
   display: flex;
   align-items: center;
   margin-left: auto; 
-  margin-right: 225px; 
+  margin-right: 425px; 
 }
 
 .logo {
@@ -66,7 +66,7 @@ body {
   color: #000000;
   border-bottom: 2px solid transparent;
   transition: color 0.2s, border-bottom-color 0.2s;
-  font-size: 27px; 
+  font-size: 20px; 
   margin: 0px 45px; 
 }
 
@@ -175,11 +175,11 @@ body {
 .notas { 
    
   display: flex; 
-  height:720px; 
+  height:620px; 
   justify-content: center;  
   gap: 20px; 
   padding: 20px; 
-  margin-top: 30px; 
+  margin-top: 10px; 
  } 
 
  .nota { 
@@ -202,7 +202,7 @@ body {
  } 
 
  .texto1,.texto2,.texto3{ 
- font-size: 30px; 
+ font-size: 20px; 
  padding: 0px 70px; 
  text-align:justify; 
 
